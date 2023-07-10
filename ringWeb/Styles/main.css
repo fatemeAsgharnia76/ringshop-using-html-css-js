@@ -1,0 +1,480 @@
+/********************  classes which used on more than one section   ********************************/
+input[type=email]:focus, button[type=button]:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-50-radius {
+  border-radius: 50px !important;
+}
+
+.bns__Comon-featurs {
+  border: none;
+  background-color: #fc7f6a;
+  color: #333;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.bns__Comon-featurs:hover {
+  background-color: #f73818;
+  color: #000000;
+  transition: 0.5s;
+}
+
+/********************  top cover & down cover section css   ********************************/
+.top-cover {
+  position: relative;
+  background: url("../pictures/rings-topCover.jpg") no-repeat center center/cover;
+  height: 40.6rem;
+}
+
+.down-cover {
+  position: relative;
+  background: url("../pictures/rings-downCover.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  height: 30rem;
+}
+
+.cover-inner {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+
+.cover-inner__h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: Montserrat;
+  color: #333;
+}
+
+.cover-inner__p {
+  font-size: 0.87rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.2px;
+}
+
+.shop-btn {
+  width: 11.25rem;
+  height: 3.31rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.down-svg {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  transform: rotate(180deg);
+  width: 100%;
+  height: 1.25rem;
+}
+
+.top-svg {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  transform: rotate(0deg);
+  width: 100%;
+  height: 1.25rem;
+}
+
+.titleOf__section {
+  font-family: Montserrat;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.textOf__section {
+  color: #333;
+  font-size: 0.87rem;
+  margin-bottom: 0.43rem;
+}
+
+/**********************   popular types section css   ******************************/
+.popular-types__element {
+  position: relative;
+  overflow: hidden;
+  height: 22.3rem;
+}
+.popular-types__element button {
+  padding: 0.687rem 1.91rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+.popular-types__element:hover .zoom-in,
+.popular-types__element:focus .zoom-in {
+  -ms-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.zoom-in {
+  -webkit-transition: all 1.3s;
+  -moz-transition: all 1.3s;
+  -o-transition: all 1.3s;
+  transition: all 1.3s;
+}
+
+.dark-shadow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.664);
+}
+
+.pt-element__content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+  padding: 2.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.pt-element__content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: Montserrat;
+  margin-bottom: 1.9rem;
+}
+.pt-element__content p {
+  font-size: 0.875rem;
+  margin-bottom: 2.3rem;
+}
+
+/**************************  best rings section css  **************************/
+.products-cards__container ul {
+  padding-inline-start: 0 !important;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 10px 4px rgba(199, 195, 195, 0.274);
+  transition: 0.6s;
+}
+
+.product-img__area {
+  position: relative;
+  height: 65%;
+  overflow: hidden;
+}
+
+.product-img__icon-pos {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  opacity: 0;
+}
+
+.product-card:hover .product-img__icon-pos {
+  z-index: 1000;
+  opacity: 1;
+  padding-right: 1rem;
+}
+
+.eye-icon {
+  top: 1.2rem;
+  transition: 0.3s, opacity 0.5s;
+}
+
+.heart-icon {
+  top: 4.5rem;
+  transition: 0.3s, opacity 0.5s;
+  transition-delay: 0.23s;
+}
+
+.icon-circle {
+  position: relative;
+  border-radius: 50%;
+  background-color: #ffffff;
+  width: 2.6rem;
+  height: 2.6rem;
+  box-shadow: 0 0 10px 4px rgba(199, 195, 195, 0.274);
+  font-size: 0.75rem;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.icon-circle img {
+  position: absolute;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.icon-circle:hover img.change-icon-color {
+  opacity: 0;
+}
+
+.product-type {
+  font-style: italic;
+  font-size: 0.68rem;
+  color: #999;
+}
+
+.product-type:hover {
+  color: #fc7f6a;
+  transition: 0.4s;
+}
+
+.product-name {
+  font-size: 0.84rem;
+  font-family: Montserrat;
+  letter-spacing: 0.3px;
+  text-shadow: 0.7px 0px 0px #333;
+  margin-bottom: 0.063rem;
+  cursor: pointer;
+}
+.product-name a {
+  color: #333;
+}
+
+.product-price {
+  color: #57bf6d;
+  font-size: 1.12rem;
+  margin: 0.5rem 0;
+}
+
+.star-rating {
+  font-size: 0.9rem;
+  color: #f9ca63;
+}
+
+.hidden-squere {
+  position: absolute;
+  left: 0;
+  bottom: -2.5rem;
+  width: 100%;
+  height: 2.37rem;
+  transition: 0.5s;
+  visibility: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hidden-squere span {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: Montserrat;
+  letter-spacing: 1px;
+}
+.hidden-squere span img {
+  position: absolute;
+  transition: 0.8s;
+}
+.hidden-squere span .before-hover {
+  opacity: 1;
+}
+.hidden-squere span .on-hover {
+  opacity: 0;
+}
+.hidden-squere .new-features {
+  font-weight: 500;
+  transition: 0.8s;
+}
+
+.hidden-squere:hover .new-features {
+  color: #fc7f6a;
+  font-weight: 500;
+  transition: 0.8s;
+}
+
+.hidden-squere:hover .before-hover {
+  opacity: 0;
+}
+
+.hidden-squere:hover .on-hover {
+  opacity: 1;
+}
+
+.product-card:hover .hidden-squere {
+  bottom: 0;
+  visibility: visible;
+}
+
+/**************************  clients reviews section css  **************************/
+.clients-rev-bg {
+  background: url("../pictures/Untitled-1.png") no-repeat fixed center center/cover;
+  height: 130rem;
+  opacity: 0.65;
+}
+
+.clients-rev-area {
+  position: absolute;
+  top: 3%;
+}
+
+.bg-shadow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(252, 252, 252, 0.479);
+}
+
+.quote {
+  font-size: 2.8rem;
+  color: #fc7f6a;
+}
+
+.client-content p {
+  font-style: italic;
+  font-size: 0.81rem;
+  color: #333;
+  line-height: 1.43rem;
+}
+.client-content .quote, .client-content p {
+  margin-bottom: 1.9rem;
+}
+.client-content svg {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  color: #fc7f6a;
+}
+
+.client-name {
+  display: block;
+  color: #000000;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Montserrat;
+}
+
+.star-rate {
+  font-size: 1rem;
+  color: #f2b01e;
+}
+
+/****************************************************/
+/**************************  logIN section css  **************************/
+.search {
+  padding: 5rem 0;
+}
+
+.em-input-con {
+  height: 3rem;
+  border: 1px solid #ddd;
+  background-color: #fcfcfc;
+}
+
+input[type=email] {
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 0.87rem;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+}
+
+.letsGo-btn {
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 3px !important;
+  width: 5.62rem;
+  height: 1.87rem;
+  font-family: Montserrat;
+}
+
+.logIn_checkbox {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.logIn_checkbox input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.custom-control-label {
+  color: #000000;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  padding-top: 0.25rem;
+  font-family: Montserrat;
+  letter-spacing: 0.2px;
+}
+
+.logIn_checkbox input[type=checkbox] {
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid rgba(2, 1, 1, 0.1098039216);
+  cursor: pointer;
+}
+
+.logIn_checkbox input[type=checkbox]:checked {
+  background: url("../icons/icons8-check-mark-16.png") no-repeat center center/cover;
+}
+
+/**************************  media queries for making responsive  **************************/
+@media (min-width: 992px) {
+  .cover-inner__h2 {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .cover-inner__h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .clients-rev-bg {
+    height: 50rem;
+  }
+  .clients-rev-area {
+    top: 10% !important;
+  }
+  .titleOf__section {
+    font-size: 2.25rem;
+  }
+  .mid-range-products li {
+    width: 50% !important;
+  }
+}
+@media (min-width: 305px) and (max-width: 410px) {
+  .clients-rev-bg {
+    height: 125rem;
+  }
+}
+@media (min-width: 411px) and (max-width: 767px) {
+  .clients-rev-bg {
+    height: 118rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

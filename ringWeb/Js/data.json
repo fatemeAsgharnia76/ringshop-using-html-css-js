@@ -1,0 +1,132 @@
+{
+    "Products": [
+      {
+        "sys": { "id": "1" , "score": "9.8"},
+        "fields": {
+          "title": "Mauris malesuada odio",
+          "price": 7000,
+          "image": { "fields": { "file": { "url": "../pictures/Mauris-malesuada-odio.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2", "score": "9.4" },
+        "fields": {
+          "title": "Faucibus metus blandit ",
+          "price": 5050,
+          "image": { "fields": { "file": { "url": "../pictures/Faucibus-metus-blandit.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" , "score": "9.1" },
+        "fields": {
+          "title": "Fusce egestas odio ",
+          "price": 4700,
+          "image": { "fields": { "file": { "url": "../pictures/Fusce-egestas-odio.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" , "score": "8.3" },
+        "fields": {
+          "title": "Vitae augue scelerisque ",
+          "price": 3750,
+          "image": { "fields": { "file": { "url": "../pictures/Vitae-augue-scelerisque.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" , "score": "7.9" },
+        "fields": {
+          "title": "Laoreet nisi bibendum",
+          "price": 4000,
+          "image": { "fields": { "file": { "url": "../pictures/Laoreet-nisi-bibendum.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" , "score": "7.4" },
+        "fields": {
+          "title": "Sed ultrices nisi ut",
+          "price": 7400,
+          "image": { "fields": { "file": { "url": "../pictures/Sed-ultrices-nisi-ut.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" , "score": "7.3" },
+        "fields": {
+          "title": "Suspendisse id luctus metus",
+          "price": 6900,
+          "image": { "fields": { "file": { "url": "../pictures/Suspendisse-id-luctus-metus.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" , "score": "7.1" },
+        "fields": {
+          "title": "Efficitur tincidunt ornare",
+          "price": 1110,
+          "image": { "fields": { "file": { "url": "../pictures/Efficitur-tincidunt-ornare.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "9" , "score": "5.3"  },
+        "fields": {
+          "title": "Class aptent taciti sociosqu",
+          "price": 5350,
+          "image": { "fields": { "file": { "url": "../pictures/Class-aptent-taciti-sociosqu.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "10" , "score": "5.4"  },
+        "fields": {
+          "title": "Maecenas varius maximus.jpg",
+          "price": 4700,
+          "image": { "fields": { "file": { "url": "../pictures/Maecenas-varius-maximus.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "11" , "score": "5.2"  },
+        "fields": {
+          "title": "Vestibulum dolor eleifend",
+          "price": 2490,
+          "image": { "fields": { "file": { "url": "../pictures/Vestibulum-dolor-eleifend.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "12" , "score": "5.7"  },
+        "fields": {
+          "title": "Sit amet lorem rutrum.jpg",
+          "price": 1110,
+          "image": { "fields": { "file": { "url": "../pictures/Sit-amet-lorem-rutrum.jpg" } } }
+        }
+      }
+    ],
+  
+    "popularTypes": [
+      {
+        "sys": { "id": 20 },
+        "fields": {
+          "title": "DIAMOND RINGS",
+          "text": "Morbi aliquet interdum nisi id pulvinar enim elementum quis praesent tincidunt",
+          "logo": { "fields": { "file": { "url": "../pictures/diamond.png" } } },
+          "bgImg": { "fields": { "file": { "url": "../pictures/Sit-amet-lorem-rutrum.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": 21},
+        "fields": {
+          "title": "RUBY RINGS",
+          "text": "Morbi aliquet interdum nisi id pulvinar enim elementum quis praesent tincidunt",
+          "logo": { "fields": { "file": { "url": "../pictures/ruby-1.png" } } },
+          "bgImg": { "fields": { "file": { "url": "../pictures/ruby-ringsss.jpg" } } }
+         
+        }
+      },
+      {
+        "sys": { "id": 22},
+        "fields": {
+          "title": "SAPPHIRE RINGS",
+          "text": "Morbi aliquet interdum nisi id pulvinar enim elementum quis praesent tincidunt",
+          "logo": { "fields": { "file": { "url": "../pictures/aquamarine-3.png" } } },
+          "bgImg": { "fields": { "file": { "url": "../pictures/imageds.jpg" } } }
+        }
+      }
+    ]
+  }
+  
